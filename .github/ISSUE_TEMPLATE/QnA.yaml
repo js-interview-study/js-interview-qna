@@ -1,12 +1,13 @@
 name: Interview Question
+title: "[WIP] "
 description: 면접 질문을 등록합니다.
 labels: ["Difficulty/Easy", "Role/Backend", "Subject/Javascript", "Type/Langauge"]
 body:
-  - type: markdown
+  - type: textarea
+    id: what-to-develop
     attributes:
+      label: 1. Example Scenario
       value: |
-        ## 1. Example Scenario
-
         채용 공고: 
         - 자격 요건
           - 
@@ -16,5 +17,11 @@ body:
         
         질문 경위: 
         - 
-
-        ## 2. My Answer
+    validations:
+      required: true
+  - type: textarea
+    id: develop-plan
+    attributes:
+      label: 2. My Answer
+    validations:
+      required: true
