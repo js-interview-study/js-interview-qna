@@ -1,0 +1,20 @@
+name: Interview Question
+description: 면접 질문을 등록합니다.
+labels: ["Difficulty/Easy", "Role/Backend", "Subject/Javascript", "Type/Langauge"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 1. Example Scenario
+
+        채용 공고: 
+        - 자격 요건
+          - 
+          
+        채용 과정
+        - 
+        
+        질문 경위: 
+        - 
+
+        ## 2. My Answer
